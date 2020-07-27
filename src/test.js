@@ -24,7 +24,6 @@ class CommentForm extends Component{
         this.getMessage.value="";
     }
 
-
     render(){
         return(
             <div>

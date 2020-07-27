@@ -1,13 +1,18 @@
 import React from "react";
-import bg from './assets/images/bg.jpg';
-import logo from './assets/images/logo.png';
+import "./main.scss";
+import yourName from "yourName";
 
 const App = () => {
-  return<img src={bg} style={{flex:1, 
-      width: "100%" ,
-      height:"100%",
-      resizeMode: 'contain'}}></img>
-
+  return (
+    <div className = "bg">
+      <div className ="logo">
+        <img src="assets/images/logo.png" alt=""></img>
+      </div>
+      <div className = "container">
+        <yourName />
+      </div>
+    </div>
+    )
 };
 
 export default App;
