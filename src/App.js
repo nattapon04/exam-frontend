@@ -10,7 +10,7 @@ const App = () => {
       </div>
       <div className = "container">
         <div className="title"><b>ชื่อของคุณ</b></div>
-        
+        <input type="text" required></input><br/><br/>
       </div>
     </div>
     )
