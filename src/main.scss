@@ -47,7 +47,7 @@ body,
   padding-top: 40px;
 }
 
-input{
+.textbox{
   height: 60px;
   width: 550px;
   color: #4e4e4e;
@@ -60,4 +60,31 @@ input{
   margin-right: auto;
   margin-left: auto;
   outline:0;
+}
+
+.button{
+  font-family: "Prompt", sans-serif;
+  outline:0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  width: 120px;
+  height: 50px;
+  color: #ffffff;
+  background-image : radial-gradient(ellipse farthest-corner at top left, #c41417 0%, #b31315 100%);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 7px;
+  transition: all 0.5s;
+}
+
+.button:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  width: 123px;
+  height: 53px;
+  padding-top: 5px;
+  font-size: 21px;
 }

@@ -9,5 +9,6 @@ COPY package.json /usr/src/app/package.json
 RUN npm install
 RUN npm install react-scripts -g
 RUN npm install react-router-dom
+RUN npm install animate.css --save
 
 CMD ["npm", "start"]
