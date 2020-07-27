@@ -1,3 +1,5 @@
+@import "~animate.css/animate.css";
+
 body {
   margin: 0;
   font-family: "Prompt", sans-serif;
@@ -47,6 +49,24 @@ body,
   padding-top: 40px;
 }
 
+.title2{
+  font-size:37px;
+  color: #383838;
+  text-align: center;
+  padding-top: 70px;
+  animation: fadeInUp ;
+  animation-duration: 0.75s;
+}
+
+.title3{
+  font-size:37px;
+  color: #383838;
+  text-align: center;
+  padding-top: 40px;
+  animation: fadeInUp ;
+  animation-duration: 0.75s;
+}
+
 .textbox{
   height: 60px;
   width: 550px;
@@ -60,6 +80,23 @@ body,
   margin-right: auto;
   margin-left: auto;
   outline:0;
+}
+
+.textbox3{
+  height: 60px;
+  width: 550px;
+  color: #4e4e4e;
+  border: 3px solid lightgray;
+  border-radius :10px;
+  font-size: 34px;
+  text-align: center;
+  margin-top:30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  outline:0;
+  animation: fadeInUp ;
+  animation-duration: 0.75s;
 }
 
 .button{
@@ -79,8 +116,8 @@ body,
   margin-left: auto;
   padding-top: 7px;
   transition: all 0.5s;
-  animation: "animate__fadeInUp";
-  animation-duration: 2s;
+  animation: fadeInUp ;
+  animation-duration: 0.75s;
 }
 
 .button:hover{
@@ -89,4 +126,127 @@ body,
   height: 53px;
   padding-top: 5px;
   font-size: 21px;
+}
+
+.button2{
+  font-family: "Prompt", sans-serif;
+  outline:0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  width: 350px;
+  height: 80px;
+  color: #ffffff;
+  background-image : radial-gradient(ellipse farthest-corner at top left, #c41417 0%, #b31315 100%);
+  display: block;
+  margin-top: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 7px;
+  transition: all 0.5s;
+  animation: fadeInUp ;
+  animation-duration: 0.75s;
+}
+
+.button2:hover{
+  
+  width: 354px;
+  height: 80px;
+  padding-top: 5px;
+  font-size: 32px;
+}
+
+.button3{
+  font-family: "Prompt", sans-serif;
+  outline:0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  width: 140px;
+  height: 55px;
+  color: #ffffff;
+  background-image : radial-gradient(ellipse farthest-corner at top left, #c41417 0%, #b31315 100%);
+  display: block;
+  margin-right: 39%;
+  margin-left: auto;
+  padding-top: 7px;
+  transition: all 0.5s;
+  animation: fadeInUp ;
+  animation-duration: 0.75s;
+}
+
+.button3:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  width: 143px;
+  height: 58px;
+  padding-top: 5px;
+  font-size: 22px;
+}
+
+.Textbutton{
+  font-family: "Prompt", sans-serif;
+  outline:0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  width: 350px;
+  height: 80px;
+  border: none;
+  border-radius: 7px;
+  color :#6f6f6f;
+  display: block;
+  background-color: white;
+  margin-top: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 7px;
+  transition: all 0.5s;
+  animation: fadeInUp ;
+  animation-duration: 0.75s;
+
+
+}
+
+.Textbutton:hover{
+  color :#c41417;
+  width: 356px;
+  height: 86px;
+  padding-top: 5px;
+  font-size: 32px;
+}
+
+.Textbutton2{
+  font-family: "Prompt", sans-serif;
+  outline:0;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-size: 25px;
+  width: 120px;
+  height: 50px;
+  color :#6f6f6f;
+  display: block;
+  background-color: white;
+  margin-top: 3px;
+  margin-right: auto;
+  margin-left: 39%;
+  transition: all 0.5s;
+  animation: fadeInUp ;
+  animation-duration: 0.75s;
+  float: left;
+
+
+}
+
+.Textbutton2:hover{
+  color :#c41417;
+  width: 120px;
+  height: 52px;
+  padding-top: 5px;
+  font-size: 27px;
 }
