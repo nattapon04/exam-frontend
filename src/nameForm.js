@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import "./main.scss";
 
+
 class NameForm extends Component{
     constructor(props) {
         super(props);
