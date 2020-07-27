@@ -1,6 +1,6 @@
 import React from "react";
 import "./main.scss";
-import yourName from "yourName";
+import yourName from "./yourName";
 
 const App = () => {
   return (
