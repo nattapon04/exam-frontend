@@ -9,7 +9,8 @@ const App = () => {
         <img src="assets/images/logo.png" alt=""></img>
       </div>
       <div className = "container">
-        <yourName />
+        <div className="title"><b>ชื่อของคุณ</b></div>
+        
       </div>
     </div>
     )

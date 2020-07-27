@@ -6,7 +6,7 @@ import "./main.scss";
 const yourName = () => {
     return (
       <div className="title">
-          ชื่อของคุณ
+          <p>ชื่อของคุณ</p>
           <input type="text"  ref={(input)=>this.getName =input}></input><br/><br/>
       </div>
       )
