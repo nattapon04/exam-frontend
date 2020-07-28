@@ -147,9 +147,8 @@ body,
   outline:0;
   animation: fadeInUp ;
   animation-duration: 0.5s;
-  animation-delay: 0.75s;
   position: fixed;
-  bottom: 37px;
+  bottom: 30px;
 }
 
 .textbox4::placeholder{
@@ -318,4 +317,8 @@ body,
   height: 52px;
   padding-top: 5px;
   font-size: 27px;
+}
+
+Link{
+  textDecoration: 'none';
 }

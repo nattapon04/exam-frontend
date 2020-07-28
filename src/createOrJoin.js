@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./main.scss";
+import { Link } from 'react-router-dom';
 
 class CreateOrJoin extends Component {
   render() {
@@ -10,8 +11,8 @@ class CreateOrJoin extends Component {
         </div>
         <div className = "container">
             <div className="title2"><b>คุณ ... </b></div>
-            <input type="submit" className="button2" value="สร้างห้องใหม่" />
-            <input type="submit" className="Textbutton" value="เข้าร่วมแชท" />
+            <Link to="/CreateRoom" ><input type="submit" className="button2" value="สร้างห้องใหม่" /></Link>
+            <Link to="/JoinRoom" ><input type="submit" className="Textbutton" value="เข้าร่วมแชท" /></Link>
         </div>
     </div>
     );

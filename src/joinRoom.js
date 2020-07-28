@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./main.scss";
+import { Link } from 'react-router-dom';
 
 class JoinRoom extends Component {
     constructor(props) {
@@ -22,8 +23,8 @@ class JoinRoom extends Component {
             <form>
               <div className="title3"><b>เข้าร่วมแชท</b></div>
               <input type="text" required className="textbox3" value={this.state.room} onChange={this.handleChange} /><br/><br/>
-              <input type="submit" className="Textbutton2" value="กลับ" />
-              <input type="submit" className="button3" value="เข้าร่วม" />
+              <Link to="/CreateOrJoin" ><input type="submit" className="Textbutton2" value="กลับ" /></Link>
+              <Link to="/Chat" ><input type="submit" className="button3" value="เข้าร่วม" /></Link>
           </form>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import "./main.scss";
+import { Link } from 'react-router-dom';
 
 
 class NameForm extends Component{
@@ -18,7 +19,7 @@ class NameForm extends Component{
           <form>
               <div className="title"><b>ชื่อของคุณ</b></div>
               <input type="text" required className="textbox" value={this.state.name} onChange={this.handleChange} /><br/><br/>
-              <input type="submit" className="button" value="ยืนยัน" />
+              <Link to="/CreateOrJoin" style={{ textDecoration: 'none' }}><input type="submit" className="button" value="ยืนยัน" /></Link>
           </form>
         );
       }
