@@ -23,8 +23,8 @@ class CreateRoom extends Component {
             <form>
               <div className="title3"><b>สร้างห้องใหม่</b></div>
               <input type="text" className="textbox3" value={this.state.room} onChange={this.handleChange} /><br/><br/>
-              <Link to="/CreateOrJoin" ><input type="submit" className="Textbutton2" value="กลับ" /></Link>
-              <Link to="/Chat" ><input type="submit" className="button3" value="ยืนยัน" /></Link>
+              <Link to="/CreateOrJoin" style={{ textDecoration: 'none' }}><input type="submit" className="Textbutton2" value="กลับ" /></Link>
+              <Link to="/Chat" style={{ textDecoration: 'none' }}><input type="submit" className="button3" value="ยืนยัน" /></Link>
           </form>
             </div>
           </div>
