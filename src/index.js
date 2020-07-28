@@ -7,7 +7,8 @@ import App from "./App";
 import CreateOrJoin from "./createOrJoin";
 import CreateRoom from "./createRoom";
 import JoinRoom from "./joinRoom";
+import Chat from "./chat";
 
-ReactDOM.render(<JoinRoom />, document.getElementById("root"));
+ReactDOM.render(<Chat />, document.getElementById("root"));
 
 serviceWorker.unregister();
