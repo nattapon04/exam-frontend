@@ -19,7 +19,7 @@ class Chat extends Component {
                 <img src="assets/images/logo.png" alt=""></img>
               </div>
             <div className = "container">
-              <div className="title4"><b>ห้อง ...</b></div>
+              <div className="title4"><b>ห้อง</b></div>
                 <div className = "container2">
                   <div className="smalltext">คุณ eiei</div>
                   <div className="boxmessage">
