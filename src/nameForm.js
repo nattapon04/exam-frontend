@@ -8,7 +8,7 @@ class NameForm extends Component{
     constructor(props) {
         super(props);
         this.state = {name: ''};
-
+        const name = this.state.name;
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
       }
