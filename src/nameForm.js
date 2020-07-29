@@ -8,7 +8,6 @@ class NameForm extends Component{
     constructor(props) {
         super(props);
         this.state = {name: ''};
-        const name = this.state.name;
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
       }
@@ -18,7 +17,6 @@ class NameForm extends Component{
       }
 
       handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.name);
         event.preventDefault();
       }
 
@@ -27,7 +25,7 @@ class NameForm extends Component{
           <form onSubmit={this.handleSubmit}>
               <div className="title"><b>ชื่อของคุณ</b></div>
               <input type="text" required className="textbox" value={this.state.name} onChange={this.handleChange} /><br/><br/>
-              <Link to="/CreateOrJoin" style={{ textDecoration: 'none' }}><input type="submit" className="button" value="ยืนยัน" /></Link>
+              <Link to= {{pathname :"/CreateOrJoin" , state: this.state.name}} style={{ textDecoration: 'none' }}><input type="submit" className="button" value="ยืนยัน" /></Link>
           </form>
         );
       }
